@@ -10,8 +10,8 @@ h2{font-size: 40px}
 }
 section{
     display: flex;
-    padding: 2%; 
-    margin-bottom: 50px;
+    
+    
     
 }
 p{
@@ -26,14 +26,19 @@ p{
 }
 
 .half-width{ 
-    width:50%;
-    padding-left: 5%;
+    
+    margin:5%;
+    width: 50%;
+    
+    
     
 }
 .half-width img{
-    padding-top: 2%;
-    width:80%;   
+    
+    width:100%;   
 }
+
+
 
 .button{
 text-decoration: none;
@@ -45,9 +50,48 @@ font-weight: 700;
 }
 .right-banner{
     background-image: url(img/dream-bg.png) ;
-    background-position: bottom  right  ;    
+    background-position: bottom 80px  right  ;    
     background-repeat: no-repeat;
 
 
 }
+.footer-section{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    display: block;
+
+}
+footer p{
+    text-align: center;
+}
+.exp{
+    margin-left: 5%;
+}
+.bottom-item{
+    
+    padding: 1%;
+    box-shadow: 5px 5px 30px rgb(29, 29, 29);
+    border-radius: 5px;
+
+}
+.bottom-section{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 150px left  ;
+    border-radius: 5px;
+   
+}
+#right-slice{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#left-slice{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(196, 129, 6), rgb(22, 255, 92));
+    border-image-slice: 1;
+}
+
 
